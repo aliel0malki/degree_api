@@ -6,8 +6,7 @@
     "types": "dist",
     "scripts": {
         "build": "tsc",
-        "test": "echo \"Not real Test\""
-    },
+         },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/aliel0malki/Degree_api-Ts.git"
