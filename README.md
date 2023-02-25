@@ -18,7 +18,9 @@ with high performance.
 import { getRequest } from "degree_api";
 
 // -- Using degree_api in Project -- //
+
 getRequest(/* Your API URL HERE */)
+
 // -- Result -- //
 // if => True => Congrats! Your response Here 👏 //
 // if => False => The cause of the error will appear Here. //
