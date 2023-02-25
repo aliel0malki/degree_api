@@ -1,10 +1,12 @@
 {
     "name": "degree_api",
-    "version": "0.8.9",
+    "version": "0.8.10",
     "description": "Simple Unit test for TypeScript",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "files": ["/dist"],
+    "files": [
+        "/dist"
+    ],
     "scripts": {
         "build": "tsc",
         "test": "echo \"not real testing\""
