@@ -1,11 +1,11 @@
 # degree_api ts
 from Ali el0mali
 ```
-Beta version 0.8.5
+Beta version 0.8.9
 ```
 
 ## What is degree_api?
-Simple Functionality to REQUEST from any API, using TypeScript.
+Simple Functionality to REQUEST Data from any API, using TypeScript.
 
 ## Why use degree_api?
 one line to request api and catch errors, 
