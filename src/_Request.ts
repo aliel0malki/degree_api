@@ -1,4 +1,4 @@
-export async function getRequest(API: string) {
+async function getRequest(API: string) {
     const response = await fetch(API);
     const data = await response.json();
 
@@ -8,6 +8,8 @@ export async function getRequest(API: string) {
         console.error(`The status of API is ${response.statusText}`);
     }
 }
+
+export {getRequest};
 /*
 fetch("https://jsonplaceholder.typicode.com/todos/1")
     .then((response) => response.json())

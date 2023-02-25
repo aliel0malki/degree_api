@@ -1,2 +1,3 @@
-export declare function getRequest(API: string): Promise<void>;
+declare function getRequest(API: string): Promise<void>;
+export { getRequest };
 //# sourceMappingURL=_Request.d.ts.map

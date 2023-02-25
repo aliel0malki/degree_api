@@ -3,17 +3,18 @@
     "version": "1.0.0",
     "description": "Simple Unit test for TypeScript",
     "main": "dist/index.js",
-    "types": "dist",
+    "types": "dist/index.d.ts",
+    "files": ["/dist"],
     "scripts": {
         "build": "tsc",
         "test": "echo \"not real testing\""
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/aliel0malki/Degree_api-Ts.git"
+        "url": "https://github.com/aliel0malki/Degree_api-Ts.git"
     },
     "author": "ali elmalki",
-    "license": "ISC",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/aliel0malki/Degree_api-Ts/issues"
     },
