@@ -1,5 +1,5 @@
 {
-    "name": "degree-ts",
+    "name": "degree_api",
     "version": "1.0.0",
     "description": "Simple Unit test for TypeScript",
     "main": "dist/index.js",
