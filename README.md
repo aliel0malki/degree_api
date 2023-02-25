@@ -1,7 +1,7 @@
 # degree_api ts
 from Ali El0malki
 ```
-Beta version 0.8.9
+Beta version 0.8.10
 ```
 ## What is API?
 API is the acronym for application programming interface — a software intermediary that allows two applications to talk to each other.
