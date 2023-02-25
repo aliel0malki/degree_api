@@ -1,12 +1,10 @@
 {
     "name": "degree_api",
-    "version": "2.1.0",
+    "version": "0.8.9",
     "description": "Simple Unit test for TypeScript",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "files": [
-        "/dist"
-    ],
+    "files": ["/dist"],
     "scripts": {
         "build": "tsc",
         "test": "echo \"not real testing\""
@@ -20,6 +18,16 @@
     "bugs": {
         "url": "https://github.com/aliel0malki/degree_api/issues"
     },
+    "keywords": [
+        "degree_api",
+        "api",
+        "typescript",
+        "fetch",
+        "request",
+        "REQUEST From API",
+        "Ts",
+        "application programming interface"
+    ],
     "homepage": "https://github.com/aliel0malki/degree_api#readme",
     "devDependencies": {
         "typescript": "^4.9.5"
