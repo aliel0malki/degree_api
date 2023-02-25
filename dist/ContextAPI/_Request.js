@@ -24,6 +24,7 @@ function getRequest(API) {
 }
 exports.getRequest = getRequest;
 /*
+New Method available in BETA 0.9.7
 fetch("https://jsonplaceholder.typicode.com/todos/1")
     .then((response) => response.json())
     .then((json) => console.log(json));
