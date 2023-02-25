@@ -6,15 +6,11 @@
     "types": "dist",
     "scripts": {
         "build": "tsc",
-<<<<<<< HEAD
-        "test": "not real testing", 
-=======
-        "test":"echo \"not real test\"",
->>>>>>> 4e56b7160ea8778927a336314aa980c9d249d501
+        "test": "echo \"not real testing\""
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/aliel0malki/Degree_api-Ts.git"
+        "url": "git+https://github.com/aliel0malki/Degree_api-Ts.git"
     },
     "author": "ali elmalki",
     "license": "ISC",
