@@ -13,14 +13,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/aliel0malki/Degree_api-Ts.git"
+        "url": "https://github.com/aliel0malki/degree_api.git"
     },
     "author": "ali elmalki",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/aliel0malki/Degree_api-Ts/issues"
+        "url": "https://github.com/aliel0malki/degree_api/issues"
     },
-    "homepage": "https://github.com/aliel0malki/Degree_api-Ts#readme",
+    "homepage": "https://github.com/aliel0malki/degree_api#readme",
     "devDependencies": {
         "typescript": "^4.9.5"
     }
