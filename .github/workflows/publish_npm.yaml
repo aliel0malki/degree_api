@@ -28,7 +28,7 @@ jobs:
 
               run: npm publish --access public
 
-              working-directory: dist
+              working-directory: ./dist
 
               env:
 
