@@ -1,10 +1,12 @@
 {
     "name": "degree_api",
-    "version": "0.9.0",
+    "version": "0.9.1",
     "description": "Simple Functionality to REQUEST Data from API.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "files": ["/dist"],
+    "files": [
+        "/dist"
+    ],
     "scripts": {
         "build": "tsc",
         "publish": "publish",
