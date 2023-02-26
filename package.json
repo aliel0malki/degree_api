@@ -1,0 +1,36 @@
+{
+    "name": "degree_api",
+    "version": "0.9.0",
+    "description": "Simple Functionality to REQUEST Data from API.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": ["/dist"],
+    "scripts": {
+        "build": "tsc",
+        "publish": "publish",
+        "test": "echo \"not real testing\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aliel0malki/degree_api.git"
+    },
+    "author": "ali elmalki",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/aliel0malki/degree_api/issues"
+    },
+    "keywords": [
+        "degree_api",
+        "api",
+        "typescript",
+        "fetch",
+        "request",
+        "REQUEST From API",
+        "Ts",
+        "application programming interface"
+    ],
+    "homepage": "https://github.com/aliel0malki/degree_api#readme",
+    "devDependencies": {
+        "typescript": "^4.9.5"
+    }
+}
