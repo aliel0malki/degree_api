@@ -1,1 +1,2 @@
-export {getRequest} from "./_Request"
+export { NewGetRequest } from "./NewGetRequest";
+export {OldGetRequest} from "./OldGetRequest";
