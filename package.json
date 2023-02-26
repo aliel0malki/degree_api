@@ -9,7 +9,6 @@
     ],
     "scripts": {
         "build": "tsc",
-        "publish": "publish",
         "test": "echo \"not real testing\""
     },
     "repository": {
