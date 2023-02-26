@@ -1,6 +1,6 @@
 # degree_api typescript
 <img
-  src="https://drive.google.com/file/d/13asKQ8iGJcgQ7PzWIPU4xsqfy1y2t8fF/view"
+  src="https://drive.google.com/file/d/13asKQ8iGJcgQ7PzWIPU4xsqfy1y2t8fF/view?usp=drivesdk"
   alt="header_img"
   title="header_img">
 
