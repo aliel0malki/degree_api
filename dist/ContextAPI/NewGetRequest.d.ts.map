@@ -1,1 +1,1 @@
-{"version":3,"file":"NewGetRequest.d.ts","sourceRoot":"","sources":["../../src/ContextAPI/NewGetRequest.ts"],"names":[],"mappings":"AAAA,iBAAS,aAAa,CAAC,GAAG,EAAE,MAAM,QAKjC;AACD,OAAO,EAAE,aAAa,EAAE,CAAC"}
+{"version":3,"file":"NewGetRequest.d.ts","sourceRoot":"","sources":["../../src/ContextAPI/NewGetRequest.ts"],"names":[],"mappings":"AAAA,iBAAS,aAAa,CAAC,GAAG,EAAE,MAAM,EAAE,KAAK,CAAC,EAAE,MAAM,QAejD;AACD,OAAO,EAAE,aAAa,EAAE,CAAC"}

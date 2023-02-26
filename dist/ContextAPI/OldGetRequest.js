@@ -10,17 +10,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.OldGetRequest = void 0;
-function OldGetRequest(API, P) {
+function OldGetRequest(API) {
     return __awaiter(this, void 0, void 0, function* () {
         const response = yield fetch(API);
         const data = yield response.json();
         if (response.status >= 200 && response.status < 300) {
-            if (P != null || P != undefined || P != "") {
-                console.log(data.P);
-            }
-            else {
-                console.log(data);
-            }
+            console.log(data);
         }
         else {
             console.error(`The status of API is ${response.statusText}`);
