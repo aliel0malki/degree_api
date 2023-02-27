@@ -1,6 +1,6 @@
-import { NewGetRequest } from "degree_api";
+import { degapi } from "degree_api";
 
-const URL =
-    "http://api.weatherapi.com/v1/current.json?key=51f0fd2411f5487687095932230502&q=Marsa Matrouh&api=yes";
+const URL = "https://jsonplaceholder.typicode.com/todos";
 
-NewGetRequest(URL, "location");
+degapi.NewGet(URL, "3");
+degapi.OldGet(URL);

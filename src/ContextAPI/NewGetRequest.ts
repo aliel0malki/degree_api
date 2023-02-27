@@ -1,8 +1,10 @@
-function NewGetRequest(API: string, param?: string) {
+function NewGetRequest(API: string, ...params: any[]) {
     // Spcific default value
-    param = param || "";
+    params = params || null;
+    // Reduce Values for Params
+    params.reduce((pv: any, cv: any) => pv + "." + cv, "null");
     // Check if the value P != null || ... Do that
-    if (param.length <= 0) {
+    if (params == null) {
         fetch(API)
             .then((response) => response.json())
             .then((data) => console.log(data))
@@ -10,7 +12,7 @@ function NewGetRequest(API: string, param?: string) {
     } else {
         fetch(API)
             .then((response) => response.json())
-            .then((data) => console.log(data.param))
+            .then((data) => console.log(data.params))
             .catch((errors) => console.error(errors));
     }
 }

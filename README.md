@@ -1,40 +1,55 @@
-# degree_api typescript
+# degree_api
 
-[![npm](https://img.shields.io/badge/npm-222?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/degree_api?activeTab=readme)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
-[![to_explain](https://img.shields.io/badge/to_explain-d21e1e?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/)
-[![discord](https://img.shields.io/badge/discord_server-120f67?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/)
+[![npm](https://img.shields.io/badge/npm-blue?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/degree_api?activeTab=readme)
+![Twitter URL](https://img.shields.io/twitter/url?color=666&logo=twitter&style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2Faliel0malki%3Ft%3DGpIJ1YLwaa3Dj5VpcDpW6A%26s%3D09)
+![Discord](https://img.shields.io/discord/1079895028907900998?color=blue&logo=discord&logoColor=white&style=for-the-badge)
+![NPM](https://img.shields.io/npm/l/degree_api?color=blue&logo=github&style=for-the-badge)
+![npm](https://img.shields.io/npm/v/degree_api?color=blue&label=Version&logo=npm&style=for-the-badge)
+![npm](https://img.shields.io/npm/dw/degree_api?color=blue&logo=npm&style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/aliel0malki/degree_api?color=blue&logo=github&style=for-the-badge)
 
-![٢٠٢٣٠٢٢٧_٠٢١٥٣٦](https://user-images.githubusercontent.com/124408599/221446423-002c8beb-8f87-4314-9991-626fe7e8b695.png)
+
+![٢٠٢٣٠٢٢٧_٢٣١٩٢٢](https://user-images.githubusercontent.com/124408599/221688033-01933866-022d-460a-a3ac-1b6afb22c14b.png)
+
+## ✴️ TypeScript Only
 
 From ```Ali El0malki```
 
 ```
-Official version 0.10.0 
+Official version 0.11.0 
 ```
 
-## What is degree_api ?
+## Features I work on! 
+- ✅️ Change the Program to OOP.
+- ✅️ add New Method to REQUEST.
+- ✅️ add Paramas to Request URL [New Method].
+- ✅️ Update performance.
+- ✅️ Fixed Bugs.
+- ❌️ add POST Method.
+- ❌️ add PUT Method.
+
+## What is degree_api 🤔
 Simple Functionality to REQUEST Data from any API in TypeScript.
 
-## What is API?
+## What is API ?
 API is the acronym for application programming interface — a software intermediary that allows two applications to talk to each other.
 APIs are an accessible way to extract and share data within and across organizations.
 APIs are all around us. 
 Every time you use a rideshare app, send a mobile payment, or change the thermostat temperature from your phone, you’re using an API.
 
-## Why use degree_api ?
+## Why use degree_api 🤔
 one line to request api and catch errors, 
 with high performance.
 
-## What changes v0.10.0 ?
--- Changes in v0.10.0 :
-- add New Method to REQUEST.
-- add Paramas to Request URL.
-- update performance.
-- fixed some Bugs.
-- Official Release!
+## What changes v0.11.0 ?
+-- Changes in v0.11.0 :
+- ✅️ Change the Program to OOP.
+- ✅️ add New Method to REQUEST.
+- ✅️ add Paramas to Request URL [New Method].
+- ✅️ Update performance.
+- ✅️ Fixed Bugs.
 
-## How i am add degree_api to my project?
+## add degree_api to my project 🤔
 add the package using npm!
 
 ```nodejs
@@ -46,23 +61,45 @@ npm i degree_api
 ```typescript
 
 // -- import degree_api -- //
-import { NewGetRequest } from "degree_api";
+import { degapi } from "degree_api";
 
 // -- API URL [ Variable ] -- //
-const URL_API = "API_KEY_HERE";
+const URL_API = "API_URL_HERE";
 
-// -- Using NewGetRequest without [Param] in Project -- //
-NewGetRequest(URL_API);
+// -- Using New Method without [Params] in Project -- //
+degapi.NewGet(URL_API);
 
-// -- Using NewGetRequest with [Param] in Project -- //
-NewGetRequest(URL_API, <Your_Param>);
+// -- Using New Method with [Params] in Project -- //
+degapi.NewGet(URL_API, <Your_Param>);
 
 
-// -- Result -- //
+// -- Output -- //
 
 // if => True => Congrats! Your response Here 👏 //
 // if => False => The cause of the error will appear Here. //
 
+```
+
+## Example with <a href="https://jsonplaceholder.typicode.com">JsonPlaceholder</a> API
+
+```typescript
+
+// -- import degree_api -- //
+import { degapi } from "degree_api";
+
+// -- API URL [ Variable ] -- //
+const URL_API = "https://jsonplaceholder.typicode.com/todos";
+
+// -- Search in Todos using ID -- //
+
+// -- Using New Method with [Param] in Project -- //
+degapi.NewGet(URL_API, "1");
+
+```
+
+```json
+// -- Output -- //
+{ userId: 1, id: 1, title: 'delectus aut autem', completed: false }
 ```
 
 ## use Old Method ?
@@ -70,18 +107,33 @@ NewGetRequest(URL_API, <Your_Param>);
 ```typescript
 
 // -- import degree_api -- //
-import { OldGetRequest } from "degree_api";
+import { degapi } from "degree_api";
 
 // -- API URL [ Variable ] -- //
-const URL_API = "API_KEY_HERE";
+const URL_API = "API_URL_HERE";
 
 // -- Using OldGetRequest in Project -- //
-OldGetRequest(URL_API);
+degapi.OldGet(URL_API);
 
 
-// -- Result -- //
+// -- Output -- //
 
 // if => True => Congrats! Your response Here 👏 //
 // if => False => The cause of the error will appear Here. //
 
 ```
+## Other things
+- **Have a problem or Bugs 🤔**
+
+    send it on **<a href="https://github.com/aliel0malki/degree_api/issues" >issues</a>**.
+
+- **You have thing to help me 🤔**
+
+    send it on **<a href="https://github.com/aliel0malki/degree_api/pulls" >Pull Request</a>**.
+
+## End The Readme
+If you would like to support me,
+and make me continue to publish and develop.
+Please ```Star``` The Repository.
+
+Thank You 😊
