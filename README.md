@@ -1,5 +1,11 @@
 # degree_api typescript
 
+[![npm](https://img.shields.io/badge/npm-222?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/degree_api?activeTab=readme)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+[![to_explain](https://img.shields.io/badge/to_explain-d21e1e?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/)
+[![discord](https://img.shields.io/badge/discord-120f67?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/)
+
 ![٢٠٢٣٠٢٢٧_٠٢١٥٣٦](https://user-images.githubusercontent.com/124408599/221446423-002c8beb-8f87-4314-9991-626fe7e8b695.png)
 
 From ```Ali El0malki```
