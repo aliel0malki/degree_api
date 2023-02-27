@@ -1,8 +1,6 @@
 # degree_api typescript
-<img
-  src="https://www.mediafire.com/view/55tniphvjjy3pde/Screenshot_%25D9%25A2%25D9%25A0%25D9%25A2%25D9%25A3%25D9%25A0%25D9%25A2%25D9%25A2%25D9%25A6-%25D9%25A2%25D9%25A1%25D9%25A3%25D9%25A7%25D9%25A0%25D9%25A5_Samsung_Internet.jpg/file"
-  alt="header_img"
-  title="header_img">
+
+![٢٠٢٣٠٢٢٧_٠٢١٥٣٦](https://user-images.githubusercontent.com/124408599/221446423-002c8beb-8f87-4314-9991-626fe7e8b695.png)
 
 From ```Ali El0malki```
 
