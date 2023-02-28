@@ -2,11 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.NewGetRequest = void 0;
 function NewGetRequest(API, ...params) {
-    // Spcific default value
     params = params || null;
-    // Reduce Values for Params
     params.reduce((pv, cv) => pv + "." + cv, "null");
-    // Check if the value P != null || ... Do that
     if (params == null) {
         fetch(API)
             .then((response) => response.json())
