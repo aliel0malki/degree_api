@@ -8,7 +8,6 @@
 [![npm](https://img.shields.io/npm/dw/degree_api?color=blue&logo=npm&style=for-the-badge)]()
 [![GitHub Repo stars](https://img.shields.io/github/stars/aliel0malki/degree_api?color=blue&logo=github&style=for-the-badge)]()
 
-
 ![٢٠٢٣٠٢٢٧_٢٣١٩٢٢](https://user-images.githubusercontent.com/124408599/221688033-01933866-022d-460a-a3ac-1b6afb22c14b.png)
 
 ## ✴️ TypeScript Only
