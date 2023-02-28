@@ -1,7 +1,7 @@
 # degree_api
 
 [![npm](https://img.shields.io/badge/npm-blue?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/degree_api?activeTab=readme)
-![Twitter URL](https://img.shields.io/twitter/url?color=666&logo=twitter&style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2Faliel0malki%3Ft%3DGpIJ1YLwaa3Dj5VpcDpW6A%26s%3D09)
+[![Twitter URL](https://img.shields.io/twitter/url?color=666&logo=twitter&style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2Faliel0malki%3Ft%3DGpIJ1YLwaa3Dj5VpcDpW6A%26s%3D09)](https://www.twitter.com)
 ![Discord](https://img.shields.io/discord/1079895028907900998?color=blue&logo=discord&logoColor=white&style=for-the-badge)
 ![NPM](https://img.shields.io/npm/l/degree_api?color=blue&logo=github&style=for-the-badge)
 ![npm](https://img.shields.io/npm/v/degree_api?color=blue&label=Version&logo=npm&style=for-the-badge)
