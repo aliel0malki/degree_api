@@ -6,7 +6,7 @@ const degapi = {
     // Functions in Degapi Library
     // -------------- //
     // NewGet Function [ New Method ]
-    NewGet(API: string, params?: string) {
+    nGet(API: string, params?: string) {
         // Spcific default value
         params = params || "";
         // Reduce Values for Params
@@ -28,7 +28,7 @@ const degapi = {
         console.log(params);
     },
     // DefGet Function [ Old Method ]
-    async DefGet(API: string) {
+    async oGet(API: string) {
         const response = await fetch(API);
         const data = await response.json();
 

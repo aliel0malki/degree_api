@@ -11,6 +11,7 @@
         "forceConsistentCasingInFileNames": true,
         "module": "commonjs",
         "moduleResolution": "node",
+        "removeComments": true,
         "resolveJsonModule": true,
         "isolatedModules": true,
         "baseUrl": ".",
@@ -20,4 +21,5 @@
     "compileOnSave": true,
     "include": ["/src/**/*"],
     "exclude": ["node_modules"]
+    
 }

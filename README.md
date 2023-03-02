@@ -1,12 +1,12 @@
 # degree_api
 
 [![npm](https://img.shields.io/badge/npm-blue?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/degree_api?activeTab=readme)
-[![Twitter URL](https://img.shields.io/twitter/url?color=666&logo=twitter&style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2Faliel0malki%3Ft%3DGpIJ1YLwaa3Dj5VpcDpW6A%26s%3D09)](https://twitter.com/aliel0malki?t=xkfJhJ-N5ZXKL5ENzzDi2Q&s=09)
+[![Twitter URL](https://img.shields.io/twitter/url?color=666&logo=twitter&style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2Faliel0malki%3Ft%3DGpIJ1YLwaa3Dj5VpcDpW6A%26s%3D09)](https://twitter.com/aliel0malki)
 [![Discord](https://img.shields.io/discord/1079895028907900998?color=blue&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/pHJABSwkZ3)
-[![NPM](https://img.shields.io/npm/l/degree_api?color=blue&logo=github&style=for-the-badge)]()
-[![npm](https://img.shields.io/npm/v/degree_api?color=blue&label=Version&logo=npm&style=for-the-badge)]()
-[![npm](https://img.shields.io/npm/dw/degree_api?color=blue&logo=npm&style=for-the-badge)]()
-[![GitHub Repo stars](https://img.shields.io/github/stars/aliel0malki/degree_api?color=blue&logo=github&style=for-the-badge)]()
+[![NPM](https://img.shields.io/npm/l/degree_api?color=blue&logo=github&style=for-the-badge)](#LICENSE.md)
+[![npm](https://img.shields.io/npm/v/degree_api?color=blue&label=Version&logo=npm&style=for-the-badge)](https://www.npmjs.com/package/degree_api)
+[![npm](https://img.shields.io/npm/dw/degree_api?color=blue&logo=npm&style=for-the-badge)](https://www.npmjs.com/package/degree_api)
+[![GitHub Repo stars](https://img.shields.io/github/stars/aliel0malki/degree_api?color=blue&logo=github&style=for-the-badge)](https://github/aliel0malki/degree_api)
 
 <h2></h2>
 
@@ -19,7 +19,7 @@
 From ```Ali El0malki```
 
 ```
-Official version 0.11.0 
+Official version 0.12.0 
 ```
 
 ## Features I work on! 
@@ -45,8 +45,8 @@ Every time you use a rideshare app, send a mobile payment, or change the thermos
 one line to request api and catch errors, 
 with high performance.
 
-## What changes v0.11.0 ?
--- Changes in v0.11.0 :
+## What changes v0.12.0 ?
+-- Changes in v0.12.0 :
 - ✅️ Change the Program to OOP.
 - ✅️ add New Method to REQUEST.
 - ✅️ add Paramas to Request URL [New Method].
