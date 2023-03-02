@@ -10,7 +10,7 @@
     "scripts": {
         "test": "jest",
         "build": "rm -rf ./dist && tsc",
-        "start": "echo \"ts-node \"No Path Url\"\""
+        "start": "echo \"ts-node \"No_Path_Url\"\""
     },
     "repository": {
         "type": "git",
