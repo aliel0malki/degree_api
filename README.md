@@ -8,7 +8,11 @@
 [![npm](https://img.shields.io/npm/dw/degree_api?color=blue&logo=npm&style=for-the-badge)]()
 [![GitHub Repo stars](https://img.shields.io/github/stars/aliel0malki/degree_api?color=blue&logo=github&style=for-the-badge)]()
 
-![٢٠٢٣٠٢٢٧_٢٣١٩٢٢](https://user-images.githubusercontent.com/124408599/221688033-01933866-022d-460a-a3ac-1b6afb22c14b.png)
+<h2></h2>
+
+![٢٠٢٣٠٣٠٢_٠١٤٠١٢](https://user-images.githubusercontent.com/124408599/222292000-04aec507-577d-4ec9-9ddd-f6bb1fa046c8.png)
+
+<!-- ![٢٠٢٣٠٢٢٧_٢٣١٩٢٢](https://user-images.githubusercontent.com/124408599/221688033-01933866-022d-460a-a3ac-1b6afb22c14b.png) -->
 
 ## ✴️ TypeScript Only
 
@@ -26,6 +30,7 @@ Official version 0.11.0
 - ✅️ Fixed Bugs.
 - ❌️ add POST Method.
 - ❌️ add PUT Method.
+- ❌️ add DELETE Method.
 
 ## What is degree_api 🤔
 Simple Functionality to REQUEST Data from any API in TypeScript.
@@ -51,7 +56,7 @@ with high performance.
 ## add degree_api to my project 🤔
 add the package using npm!
 
-```nodejs
+```
 npm i degree_api
 ```
 
@@ -63,13 +68,13 @@ npm i degree_api
 import { degapi } from "degree_api";
 
 // -- API URL [ Variable ] -- //
-const URL_API = "API_URL_HERE";
+const API_URL = "API_URL_HERE";
 
 // -- Using New Method without [Params] in Project -- //
-degapi.NewGet(URL_API);
+degapi.nGet(URL_API);
 
 // -- Using New Method with [Params] in Project -- //
-degapi.NewGet(URL_API, <Your_Param>);
+degapi.nGet(URL_API, <Your_Param>);
 
 
 // -- Output -- //
@@ -79,7 +84,7 @@ degapi.NewGet(URL_API, <Your_Param>);
 
 ```
 
-## Example with <a href="https://jsonplaceholder.typicode.com">JsonPlaceholder</a> API
+## Example with <a href="https://jsonplaceholder.typicode.com">JsonPlaceholder</a> API ..
 
 ```typescript
 
@@ -87,16 +92,16 @@ degapi.NewGet(URL_API, <Your_Param>);
 import { degapi } from "degree_api";
 
 // -- API URL [ Variable ] -- //
-const URL_API = "https://jsonplaceholder.typicode.com/todos";
+const API_URL = "https://jsonplaceholder.typicode.com/todos";
 
 // -- Search in Todos using ID -- //
 
 // -- Using New Method with [Param] in Project -- //
-degapi.NewGet(URL_API, "1");
+degapi.nGet(URL_API, "1");
 
 ```
 
-```json
+```typescript
 // -- Output -- //
 { userId: 1, id: 1, title: 'delectus aut autem', completed: false }
 ```
@@ -109,10 +114,10 @@ degapi.NewGet(URL_API, "1");
 import { degapi } from "degree_api";
 
 // -- API URL [ Variable ] -- //
-const URL_API = "API_URL_HERE";
+const API_URL = "API_URL_HERE";
 
 // -- Using OldGetRequest in Project -- //
-degapi.OldGet(URL_API);
+degapi.oGet(URL_API);
 
 
 // -- Output -- //
@@ -124,11 +129,11 @@ degapi.OldGet(URL_API);
 ## Other things
 - **Have a problem or Bugs 🤔**
 
-    send it on **<a href="https://github.com/aliel0malki/degree_api/issues" >issues</a>**.
+    send on **<a href="https://github.com/aliel0malki/degree_api/issues" >issues</a>**.
 
-- **You have thing to help me 🤔**
+- **Have thing to help me 🤔**
 
-    send it on **<a href="https://github.com/aliel0malki/degree_api/pulls" >Pull Request</a>**.
+    send on **<a href="https://github.com/aliel0malki/degree_api/pulls" >pull request</a>**.
 
 ## End The Readme
 If you would like to support me,
