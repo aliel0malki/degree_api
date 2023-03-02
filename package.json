@@ -1,5 +1,5 @@
 {
-    "name": "degree_api",
+    "name": "@alielmalki/degree_api",
     "version": "0.12.0",
     "description": "REQUEST Data from API.",
     "main": "dist/index.js",
