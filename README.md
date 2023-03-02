@@ -19,7 +19,7 @@
 From ```Ali El0malki```
 
 ```
-Official version 0.12.0 
+Official version 0.12.1
 ```
 
 ## Features I work on! 
