@@ -8,6 +8,7 @@
         "/dist"
     ],
     "scripts": {
+        
         "test": "jest",
         "build": "rm -rf ./dist && tsc",
         "start": "echo \"ts-node \"No_Path_Url\"\""
