@@ -106,7 +106,7 @@ degapi.nGet(URL_API, "1");
 { userId: 1, id: 1, title: 'delectus aut autem', completed: false }
 ```
 
-## use Old Method ?
+## How use Old Method ?
 
 ```typescript
 
