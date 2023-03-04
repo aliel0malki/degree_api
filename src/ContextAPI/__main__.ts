@@ -1,6 +1,3 @@
-// import { NewGetRequest } from "./NewGetRequest";
-// import { OldGetRequest } from "./OldGetRequest";
-
 // Degapi Class [ Main Class ]
 const degapi = {
     // Functions in Degapi Library
