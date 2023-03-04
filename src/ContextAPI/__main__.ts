@@ -8,7 +8,7 @@ const degapi = {
         params = params || "";
         // Reduce Values for Params
         // params.reduce((pv: string, cv: string) => pv + "&" + cv, "");
-        // Check if the value P != null || ... Do that
+        // Check if the value Params != empty ? ... Fetch With parmas
         if (params === "") {
             fetch(API)
                 .then((response) => response.json())
